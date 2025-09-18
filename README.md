@@ -46,4 +46,4 @@ python ./evaluate.py --dataset **selected dataset**
 To train the model from scratch, run:
 ```
 python ./train.py --dataset **selected dataset**
-```'
+```
