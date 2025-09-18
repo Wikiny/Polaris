@@ -3,7 +3,8 @@ This is official code for the Polaris framework.
 
 ## Polaris: Detecting Advanced Persistent Threat on Provenance Graphs via Siamese Masked Graph Representation
 ![framework](./figs/framework.png)
-we propose Polaris, a novel semi-supervised detection framework based on provenance graphs. At its core is a Siamese Graph Masked Autoencoder (SGMAE). This model leverages masked graph representation learning to model system entities and benign behaviors, while concurrently employing an angular contrastive learning mechanism that utilizes a small number of attack samples to separate the embeddings of easily confused benign and malicious behaviors. Finally,
+
+We propose Polaris, a novel semi-supervised detection framework based on provenance graphs. At its core is a Siamese Graph Masked Autoencoder (SGMAE). This model leverages masked graph representation learning to model system entities and benign behaviors, while concurrently employing an angular contrastive learning mechanism that utilizes a small number of attack samples to separate the embeddings of easily confused benign and malicious behaviors. Finally,
 an anomaly detection algorithm is applied in the learned embedding space to identify APT attacks. 
 
 ## Requirements
